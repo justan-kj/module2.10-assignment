@@ -1,0 +1,68 @@
+.table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+  background-color: #007a98;
+  color: #ffffff;
+  text-align: left;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.total{
+  text-align: right;
+  font-size: 1.0em;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 1em;
+}
+
+.discount{
+  text-align: right;
+
+  font-family: sans-serif;
+  font: weight 400;
+  color:darkgreen;
+  margin: 1em;
+}
+
+
+.footer{
+  column-span: all;
+  text-align: right;
+  
+}
+
+.totals{
+
+  text-align: right;
+
+
+
+}
+
+.subtotal{
+  text-align: right;
+
+  font-family: sans-serif;
+  font: weight 400;
+  margin: 1em;
+}
